@@ -3,6 +3,10 @@
   padding: 0;
   font-family: Roboto;
 }
+
+h3{
+  color: rgb(0, 133, 0);
+}
 body{
   background-color: aliceblue;
 }
@@ -23,6 +27,18 @@ header .container{
 header a{
   color: black;
   text-decoration: none;
+}
+
+.nav-links a {
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 8px 10px 8px 10px;
+  margin: 8px;
+}
+.nav-links a:hover {
+  background-color: rgb(0, 133, 0);
+  color: white;
+  border: 3px solid #333;
 }
 
 
@@ -73,7 +89,7 @@ header a{
 .create{
   padding: 20px;
 }
-.create input{
+input{
   width: 100%;
   margin: 10px 0 10px 0;
   padding: 6px 8px;
@@ -82,7 +98,7 @@ header a{
   box-shadow: 1px 1px 3px black;
 }
 
-.create input.error{
+input.error{
   border: 1px solid red;
 }
 .create div.error{
@@ -93,7 +109,7 @@ header a{
   color: red;
 }
 
-.create button{
+button{
   background-color: rgb(0, 133, 0);
   color: white;
   font-size: small;
@@ -101,12 +117,28 @@ header a{
   margin: 10px 0 10px 0;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 
 }
 .create h3{
   text-align: center;
   margin-bottom: 25px;
 }
+
+form.login,form.signup{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 4px;
+  padding: 30px;
+  gap: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+
+
+
 
 
 @media screen and (max-width: 768px) {
