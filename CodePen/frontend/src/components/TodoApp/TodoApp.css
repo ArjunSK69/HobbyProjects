@@ -1,0 +1,26 @@
+.todo-bg-container{
+    height: 100vh;
+    background-color: teal;
+}
+
+.todo-box{
+    
+    box-shadow: 1px 1px 32px -3px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.todo-list{
+    background-color: rgba(0, 128, 128, 0.325);
+    box-shadow: 1px 1px 32px -3px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.todo-list i{
+    cursor: pointer;
+    color: black;
+    margin-right: 10px;
+}
